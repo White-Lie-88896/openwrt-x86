@@ -23,3 +23,4 @@ sed -i 's/OpenWrt/White/g' package/base-files/files/bin/config_generate
 rm -rf feeds/kenzo/luci-app-fchomo
 rm -rf feeds/kenzo/luci-theme-alpha
 rm -rf feeds/kenzo/luci-app-dockerman
+rm -rf feeds/kenzo/luci-theme-ifit
