@@ -18,3 +18,8 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 
 # Modify hostname
 sed -i 's/OpenWrt/White/g' package/base-files/files/bin/config_generate
+
+# 删除 kenzo 源中有问题的包
+rm -rf feeds/kenzo/luci-app-fchomo
+rm -rf feeds/kenzo/luci-theme-alpha
+rm -rf feeds/kenzo/luci-app-dockerman
